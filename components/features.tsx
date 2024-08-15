@@ -54,7 +54,7 @@ const FeaturesSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 justify-items-center mt-28 xl:px-32">
         {features.map((feature, index) => (
           <div key={index} className="rounded-l self-center max-w-[480px] h-[480px]">
-            <Image src={feature.image} alt={feature.title} width={300} height={300} className={`mb-4 w-full h-[350px] ${index == 7 ? "object-none": ""} rounded-lg shadow`} />
+            <img src={feature.image} alt={feature.title}  className={`mb-4 w-full h-[350px] ${index == 7 ? "object-none": "object-contain"} rounded-lg shadow `} />
             <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
             <p className="text-gray-600">{feature.description}</p>
           </div>

@@ -18,7 +18,7 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="md:w-1/2 mt-5 flex justify-center">
-        <Image src="/hero.png" alt="Hero" width={300} height={300} className="w-[300px] md:w-[450px] h-[280px] md:h-[350px]" />
+        <img src="/hero.png" alt="Hero" className="object-contain h-auto " />
       </div>
     </section>
   )
