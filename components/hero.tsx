@@ -17,7 +17,7 @@ const HeroSection = () => {
           Take a free demo
         </a>
       </div>
-      <div className="md:w-1/2 mt-5 flex justify-center">
+      <div className="md:w-[380px] mt-5 flex justify-center">
         <img src="/hero.png" alt="Hero" className="object-contain h-auto " />
       </div>
     </section>
