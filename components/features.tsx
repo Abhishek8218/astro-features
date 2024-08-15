@@ -2,36 +2,47 @@ import exp from "constants";
 import Image from "next/image";
 
 const features = [
-  {
-    title: 'Dynamic Kundli', 
-    description: 'Generate and view dynamic Kundli charts instantly with real-time updates and personalized astrological insights.' ,
-    image: "/example.webp"
-  },
-  {
-    title: 'Kundli Generation', 
-    description: 'Create accurate and detailed Kundli charts using our advanced astrological algorithms, providing deep insights into your future.' ,
-    image: "/example.webp"
-  },
-  {
-    title: 'PDF Download', 
-    description: 'Download your Kundli charts in high-quality PDF format for easy sharing and offline viewing, ensuring you always have access to your astrological information.' ,
-    image: "/example.webp"
-  },
-  {
-    title: 'Customer List and Smart Filter', 
-    description: 'View a comprehensive list of customers and use smart filtering options to sort and find customers based on various attributes and astrological data.' ,
-    image: "/example.webp"
-  },
-  {
-    title: 'Customer Creation with Useful Astrological Information', 
-    description: 'Create new customer profiles enriched with detailed astrological information to provide personalized services and insights.' ,
-    image: "/example.webp"
-  },
-  {
-    title: 'Customer Details Editing', 
-    description: 'Easily view and edit customer details, including personal information and astrological data, to keep your records up-to-date and accurate.' ,
-    image: "/example.webp"
-  },
+    {
+        title: 'Custom PDF Generation',
+        description: 'Easily create personalized PDF documents  to streamline your reporting and ensure professional presentation.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Order Management System',
+        description: 'Track and manage all orders efficiently from a central hub, with real-time updates and comprehensive order details at your fingertips.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Customer Account Creation',
+        description: 'Quickly set up new customer accounts with a streamlined process, enabling immediate access to customer management and engagement tools.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Comprehensive Customer Details Management',
+        description: 'Efficiently manage and update detailed customer information to ensure accuracy and enhance customer relationship management.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Advanced Full-Text Search',
+        description: 'Perform powerful, full-text searches across your entire database to swiftly locate specific information and improve data accessibility.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Simple and Insightful Customer Statistics',
+        description: 'Access clear and actionable customer statistics to gain insights and make data-driven decisions for better engagement and strategy.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Robust Credit Management',
+        description: 'Handle customer credit limits and transactions efficiently, ensuring smooth financial operations and accurate credit tracking.',
+        image: "/example.webp"
+      },
+      {
+        title: 'Tailored Custom Solutions',
+        description: 'Explore bespoke solutions designed to meet your unique business challenges with flexibility and customization to fit your specific needs.',
+        image: "/example.webp"
+      }
+      
 ];
 
 const FeaturesSection = () => {
